@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #ecf3f7;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#logo {
+  width: 70px;
+  max-width: 70px;
+}
+
+.media-body {
+  margin-top: 20px;
+}
+
+.mt-0 {
+  font-size: 25px;
+}
+
+.media {
+  margin-top: 20px;
+}
+
+.login-frame {
+  background-color: white;
+  border-radius: 5%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.sign-up h2,
+.sign-up h4 {
+  color: #404169;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: black;
+  /* font-size: 12px; */
+}
+.sign-up a:hover {
+  color: #404169;
+}
+
+.store {
+  position: relative;
+}
+
+.store-eyes {
+  position: absolute;
+  left: 93%;
+  top: 30%;
+}
+
+.fa-eye,
+.fa-eye-slash {
+  cursor: pointer;
+  position: absolute;
+}
+
+.login form {
+  margin-top: 20px;
+}
+
+.login form button {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 15px;
+}
+
+.sign-up-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+  /* margin-top: 30px; */
+  /* margin-left: 20px;
+     margin-right: 20px; */
+}
+
+.sign-up-button {
+  width: 100%;
+  max-width: 100%;
+}
+
+#accountCheck,
+#passwordCheck,
+#confirmPasswordCheck {
+  color: red !important;
+}
+
+#successful {
+  color: #218838 !important;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
